@@ -1,5 +1,11 @@
 # @open-slide/cli
 
+## 1.2.7
+
+### Patch Changes
+
+- [#180](https://github.com/1weiho/open-slide/pull/180) [`9b8202e`](https://github.com/1weiho/open-slide/commit/9b8202e8b17abc85caf5cd5a62c59e277a4f91ef) Thanks [@1weiho](https://github.com/1weiho)! - Remove duplicated internal helpers (HTTP `readBody`/`json`, slide-path resolution, the `SLIDE_ID_RE` pattern, and locale `format`/`plural`) by routing them through a single source.
+
 ## 1.2.6
 
 ### Patch Changes
